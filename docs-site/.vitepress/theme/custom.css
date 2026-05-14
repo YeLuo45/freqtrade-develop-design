@@ -1,0 +1,43 @@
+/* Green/Teal gradient Hero background */
+.VPHome {
+  background: linear-gradient(135deg, #0a1a16 0%, #0d2b22 50%, #0a1f1a 100%);
+  padding: 2rem 0;
+}
+
+/* Title gradient text */
+.VPHero .name {
+  font-size: 3rem;
+  background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.VPHero .text {
+  color: #e0e0e0;
+  font-size: 1.2rem;
+}
+
+/* Tagline */
+.VPHero .tagline {
+  color: #a0a0a0;
+  font-size: 1rem;
+}
+
+/* Features */
+.VPFeature {
+  background: rgba(0, 184, 148, 0.1) !important;
+  border: 1px solid rgba(0, 184, 148, 0.3) !important;
+}
+
+.VPFeature:hover {
+  background: rgba(0, 184, 148, 0.15) !important;
+  transform: translateY(-2px);
+}
+
+/* Dark mode overrides */
+.dark {
+  --vp-c-brand-1: #00b894;
+  --vp-c-brand-2: #00cec9;
+  --vp-c-brand-3: #55efc4;
+}
